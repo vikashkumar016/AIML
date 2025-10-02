@@ -1,0 +1,70 @@
+Pandas Learning Journey
+
+
+Introduction
+
+This repository serves as a collection of my pandas learning notes and code snippets, where I cover fundamental data analysis tasks like cleaning data, exploring and manipulating datasets, and applying various pandas techniques for extracting insights.
+
+Key Concepts Learned
+DataFrames and Series
+
+DataFrame: A 2-dimensional labeled data structure (like a table) that allows for easy manipulation and analysis of data. A DataFrame can store data of different types (integer, float, string, etc.).
+
+Series: A 1-dimensional array-like object, which is the basic building block of a DataFrame. It can be thought of as a single column of a DataFrame.
+
+Data Cleaning and Preprocessing
+
+Handling Missing Data: Learning how to handle missing values (NaN) using methods like .dropna(), .fillna(), and .isna().
+
+Removing Duplicates: Using .drop_duplicates() to remove duplicate rows from the dataset.
+
+Renaming Columns: Changing column names for better clarity with .rename().
+
+Data Type Conversion: Using .astype() to convert data types (e.g., converting strings to datetime).
+
+Feature Extraction
+
+Extracting Columns: Selecting specific columns using df['column_name'] or df[['col1', 'col2']].
+
+Creating New Columns: Adding new calculated columns using expressions or lambda functions (e.g., df['new_column'] = df['column1'] + df['column2']).
+
+String Methods: Extracting features from string columns (e.g., .str.extract(), .str.split()).
+
+Data Sorting and Filtering
+
+Sorting: Sorting data using .sort_values(). I explored sorting by single or multiple columns and how to sort in ascending/descending order.
+
+Filtering Data: Filtering rows based on conditions using boolean indexing (e.g., df[df['column'] > value]).
+
+Unique Values: Using .unique() and .value_counts() to identify unique values and count occurrences in a column.
+
+Data Aggregation
+
+Grouping Data: Grouping data using .groupby(), followed by aggregation functions like .mean(), .sum(), and .count().
+
+Pivot Tables: Creating pivot tables using .pivot_table() to summarize and restructure data.
+
+Merging Data: Combining multiple DataFrames using .merge() or .concat() to perform joins (inner, left, right, outer).
+
+
+
+Projects
+Anime Data Analysis Project
+
+This project focuses on analyzing anime data, where I learned how to:
+
+Extract key features (e.g., ratings, genres).
+
+Sort the data by different features (e.g., rating, year).
+
+Visualize the distribution of ratings and other features.
+
+Countries Dataset Project
+
+For this project, I worked with a dataset of countries and:
+
+Explored features like GDP, population, and democracy scores.
+
+Sorted and filtered data to analyze specific countries (e.g., India).
+
+Visualized democracy scores across different countries.
